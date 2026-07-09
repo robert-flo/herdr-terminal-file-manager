@@ -7,7 +7,10 @@
 
 [elio](https://elio-fm.github.io/) is a **snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support.** — [website](https://elio-fm.github.io/) · [docs](https://elio-fm.github.io/docs/) · [GitHub](https://github.com/elio-fm/elio)
 
-**A thin wrapper that opens elio inside a [herdr](https://herdr.dev) pane.** All file browsing, preview, and file operations are elio's own — this plugin's only job is finding the directory you're actually working in and opening elio there.
+This plugin is a thin wrapper designed to open **elio** inside a [herdr](https://herdr.dev) pane.
+
+* **What this plugin does:** Its only job is to detect the directory you're actually working in and open elio there.
+* **What elio does:** All file browsing, rich previews, inline images, bulk actions, and trash support are handled entirely by elio—a snappy, batteries-included terminal file manager.
 
 ![herdr-terminal-file-manager open in a split pane, showing the elio file explorer](assets/hero.png)
 
