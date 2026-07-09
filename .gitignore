@@ -1,5 +1,8 @@
 /*
 !/.gitignore
 !/README.md
+!/herdr-plugin.toml
+!/bin
+!/bin/**
 
 
