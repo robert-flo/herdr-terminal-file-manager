@@ -4,5 +4,7 @@
 !/herdr-plugin.toml
 !/bin
 !/bin/**
+!/assets
+!/assets/**
 
 
