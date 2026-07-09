@@ -179,3 +179,7 @@ Please note that if you prefer using **Yazi**, the original [speardragon/herdr-y
 - [elio](https://elio-fm.github.io/) — install via `cargo install elio` or your package manager.
 - [herdr](https://herdr.dev) ≥ 0.7.0.
 - A [Nerd Font](https://www.nerdfonts.com/) in your terminal for correct icon rendering.
+
+---
+
+<small>The screenshot on this page was taken in [kitty](https://sw.kovidgoyal.net/kitty/) with `font_family JetBrainsMonoNL NF`.</small>
