@@ -9,6 +9,8 @@
 
 **A thin wrapper that opens elio inside a [herdr](https://herdr.dev) pane.** All file browsing, preview, and file operations are elio's own — this plugin's only job is finding the directory you're actually working in and opening elio there.
 
+![herdr-terminal-file-manager open in a split pane, showing the elio file explorer](assets/hero.png)
+
 ## Why you'd want it
 
 - **Never leave your herdr session.** Browse and preview files without switching to another app.
@@ -29,6 +31,8 @@ Directory resolution order: `$1` → `$HERDR_EXPLORER_DIR` → `HERDR_PLUGIN_CON
 
 ```
 herdr-terminal-file-manager/
+├── assets/
+│   └── hero.png            # Screenshot of elio in a herdr pane
 ├── herdr-plugin.toml      # Plugin manifest — declares id, actions, panes, build
 ├── bin/
 │   └── resolve-dir.sh     # Resolves the target directory from context/env/args
