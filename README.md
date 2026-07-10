@@ -135,18 +135,6 @@ herdr server reload-config
 
 This plugin defines no keys of its own — the pane runs plain elio, so every keybinding is [elio's own](https://elio-fm.github.io/docs/).
 
-## Development
-
-```bash
-herdr plugin install robert-flo/herdr-terminal-file-manager   # install from GitHub
-herdr plugin action invoke robert-flo.elio.open
-```
-
-`bin/resolve-dir.sh` is a standalone shell script, testable without herdr:
-
-```bash
-HERDR_PLUGIN_CONTEXT_JSON='{"focused_pane_cwd":"/some/dir"}' bin/resolve-dir.sh
-```
 
 ## Troubleshooting
 
